@@ -1,0 +1,65 @@
+.social-container {
+    background: transparent;
+    padding: 25px 50px;
+    margin: 0px 300px;
+}
+
+a.social {
+    transition: transform 250ms;
+    display: flex;
+    -webkit-transition: transform 250ms;
+    -moz-transition: transform 250ms;
+    -ms-transition: transform 250ms;
+    -o-transition: transform 250ms;
+}
+
+a.social:hover {
+    transform: translateY(-8px);
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+}
+
+a.facebook {
+    color: #4968ad;
+}
+
+a.twitter {
+    color: #49a1eb;
+}
+
+a.instagram {
+    color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a.social:hover .App-logo {
+        display: block;
+        animation: Movment forwards 2s;
+        -webkit-animation: Movment forwards 2s;
+    }
+}
+
+@keyframes Movment {
+    0% {
+        font-size: 0;
+        width: 0;
+    }
+    25% {
+        font-size: 25%;
+        width: 25%;
+    }
+    50% {
+        font-size: 50%;
+        width: 50%;
+    }
+    75% {
+        font-size: 75%;
+        width: 75%;
+    }
+    100% {
+        font-size: 100%;
+        width: 100%;
+    }
+}
