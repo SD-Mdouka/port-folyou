@@ -29,7 +29,7 @@ export default function Projects({ tab }) {
                         {project.subtitle}
                       </h2>
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                        {project.icon}9+
+                        {project.icon}
                       </h2>
                       <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">
                         <a

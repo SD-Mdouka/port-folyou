@@ -12,7 +12,7 @@ export default function Projects({ tab }) {
         <div className="flex flex-wrap ml-4 justify-bettwen">
           {projects.map(
             (project) =>
-              tab === project.title && (
+              ({ tab } == project.title && (
                 <a
                   href={project.link}
                   key={project.image}
@@ -28,9 +28,7 @@ export default function Projects({ tab }) {
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                         {project.subtitle}
                       </h2>
-                      <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                        {project.icon}9+
-                      </h2>
+                      <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1"></h2>
                       <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">
                         <a
                           href="https://github.com/paytonjewell"
@@ -44,7 +42,7 @@ export default function Projects({ tab }) {
                     </div>
                   </div>
                 </a>
-              )
+              ))
           )}
         </div>
       </div>

@@ -21,13 +21,13 @@ export const projects = [
     image: "./project-3.gif",
     link: "https://reedbarger.com",
   },
-  {
-    title: "React",
-    subtitle: "React + NextJs",
-    icon: <FaJsSquare />,
-    image: "./project-4.gif",
-    link: "https://reedbarger.com",
-  },
+  // {
+  //   title: "React",
+  //   subtitle: "React + NextJs",
+  //   icon: <FaJsSquare />,
+  //   image: "./project-4.gif",
+  //   link: "https://reedbarger.com",
+  // },
   {
     title: "Laravel",
     subtitle: "Clone UI Movies With LiveWire",

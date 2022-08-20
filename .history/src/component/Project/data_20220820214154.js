@@ -18,14 +18,14 @@ export const projects = [
     title: "React",
     subtitle: "React + NodeJs",
     icon: <FaJsSquare />,
-    image: "./project-3.gif",
+    image: "./project-2.gif",
     link: "https://reedbarger.com",
   },
   {
     title: "React",
     subtitle: "React + NextJs",
     icon: <FaJsSquare />,
-    image: "./project-4.gif",
+    image: "./project-2.gif",
     link: "https://reedbarger.com",
   },
   {

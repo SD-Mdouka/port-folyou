@@ -12,7 +12,7 @@ export default function Projects({ tab }) {
         <div className="flex flex-wrap ml-4 justify-bettwen">
           {projects.map(
             (project) =>
-              tab === project.title && (
+              ({ tab } == project.title && (
                 <a
                   href={project.link}
                   key={project.image}
@@ -27,9 +27,10 @@ export default function Projects({ tab }) {
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                         {project.subtitle}
+                        {tab}
                       </h2>
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                        {project.icon}9+
+                        {project.icon}
                       </h2>
                       <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">
                         <a
@@ -44,7 +45,7 @@ export default function Projects({ tab }) {
                     </div>
                   </div>
                 </a>
-              )
+              ))
           )}
         </div>
       </div>

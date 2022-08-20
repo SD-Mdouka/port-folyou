@@ -12,7 +12,7 @@ export default function Projects({ tab }) {
         <div className="flex flex-wrap ml-4 justify-bettwen">
           {projects.map(
             (project) =>
-              tab === project.title && (
+              ({ tab } === project.title && (
                 <a
                   href={project.link}
                   key={project.image}
@@ -44,7 +44,7 @@ export default function Projects({ tab }) {
                     </div>
                   </div>
                 </a>
-              )
+              ))
           )}
         </div>
       </div>
