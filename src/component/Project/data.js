@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     title: "React",
-    subtitle: "React + NodeJs",
+    subtitle: "Clone UI Memedoc",
     icon: <FaJsSquare />,
     image: "./project-3.gif",
     link: "https://reedbarger.com",
@@ -44,7 +44,7 @@ export const projects = [
   },
   {
     title: "WordPress",
-    subtitle: "Project Gestion Restaurant",
+    subtitle: "Site Statice",
     icon: <FaJsSquare />,
     image: "./project-4.gif",
     link: "https://pythonbootcamp.com",
