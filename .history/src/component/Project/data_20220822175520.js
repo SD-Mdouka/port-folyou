@@ -11,7 +11,7 @@ export const projects = [
     title: "React",
     subtitle: "Clon UI ONCF",
     icon: <FaJsSquare />,
-    image: "./project/ONCFUI.png",
+    image: "./project/ONCF_UI.png",
     link: "https://github.com/SD-Mdouka/oncefProjet",
   },
   {
