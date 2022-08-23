@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Tab = styled.button`
   font-size: 20px;
@@ -12,12 +12,12 @@ export const Tab = styled.button`
   ${({ active }) =>
     active &&
     `
-    border-bottom: 4px solid #44566c;
+    border-bottom: 2px solid #44566c;
     opacity: 1;
   `}
 `;
 export const ButtonGroup = styled.div`
-  margin-top: 2px;
+margin-top:2px;
   display: flex;
   background-color: transparent;
 `;

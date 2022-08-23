@@ -6,10 +6,9 @@ import {
   FaLaravel,
   FaWordpress,
 } from "react-icons/fa";
-import { DiMysql } from "react-icons/di";
+import { DiMysql, DiNodejs } from "react-icons/di";
 import { TbBrandTailwind } from "react-icons/tb";
 import { SiRedux, SiAuth0 } from "react-icons/si";
-import { Icon } from "@iconify/react";
 
 export const projects = [
   {
@@ -61,7 +60,7 @@ export const projects = [
       <span className="flex justify-center mt-[70px] gap-5">
         <FaJsSquare />
         <FaReact />
-        <Icon icon="simple-icons:nextdotjs" />
+        <DiNodejs />
       </span>
     ),
     image: "./project/ecommerce.png",
@@ -74,7 +73,6 @@ export const projects = [
       <span className="flex justify-center mt-[70px] gap-5">
         <FaJsSquare />
         <FaLaravel />
-        <Icon icon="simple-icons:livewire" />
         <TbBrandTailwind />
       </span>
     ),

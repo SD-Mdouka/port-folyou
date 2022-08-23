@@ -25,7 +25,7 @@ export default function Projects({ tab }) {
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                         {project.subtitle}
                       </h2>
-                      <h2 className="tracking-widest text-3xl title-font font-medium text-green-400 mb-1">
+                      <h2 className="tracking-widest text-2xl title-font font-medium text-green-400 mb-1">
                         {project.icon}
                       </h2>
                       <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">

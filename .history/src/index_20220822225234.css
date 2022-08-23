@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap");
+body {
+    margin: 0;
+    font-family: "DynaPuff", cursive !important;
+}
+
+code {
+    font-family: "DynaPuff", cursive !important;
+}
+
+* {
+    font-family: "DynaPuff", cursive !important;
+}

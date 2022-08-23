@@ -4,7 +4,10 @@ import { projects } from "./data";
 
 export default function Projects({ tab }) {
   return (
-    <section id="projects" className="body-font my-masonry-grid">
+    <section
+      id="projects"
+      className="text-white bg-transparent body-font my-masonry-grid"
+    >
       <div className="container mx-auto text-center my-masonry-grid_column w-[33.3333%] md:w-[50%]">
         <div className="flex flex-wrap ml-4 justify-bettwen">
           {projects.map(
@@ -25,10 +28,10 @@ export default function Projects({ tab }) {
                       <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                         {project.subtitle}
                       </h2>
-                      <h2 className="tracking-widest text-3xl title-font font-medium text-green-400 mb-1">
-                        {project.icon}
+                      <h2 className="flex flex-col text-xl font-medium mb-1">
+                        <span>{project.icon}</span>
                       </h2>
-                      <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">
+                      <div className="text-lg font-medium text-white m-8 p-8 ">
                         <a
                           href="https://github.com/paytonjewell"
                           target="_blank"

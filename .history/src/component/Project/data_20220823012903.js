@@ -6,17 +6,16 @@ import {
   FaLaravel,
   FaWordpress,
 } from "react-icons/fa";
-import { DiMysql } from "react-icons/di";
+import { DiMysql, DiNodejs } from "react-icons/di";
 import { TbBrandTailwind } from "react-icons/tb";
 import { SiRedux, SiAuth0 } from "react-icons/si";
-import { Icon } from "@iconify/react";
 
 export const projects = [
   {
     title: "React",
     subtitle: "Auth0 + CRUD",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaJsSquare />
         <SiAuth0 />
         <FaReact />
@@ -30,7 +29,7 @@ export const projects = [
     title: "React",
     subtitle: "Clon UI ONCF",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaJsSquare />
         <FaReact />
         <SiRedux />
@@ -44,7 +43,7 @@ export const projects = [
     title: "React",
     subtitle: "Site App Memedoc",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaNode />
         <FaReact />
         <SiRedux />
@@ -58,10 +57,10 @@ export const projects = [
     title: "React",
     subtitle: "React + NextJs",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaJsSquare />
         <FaReact />
-        <Icon icon="simple-icons:nextdotjs" />
+        <DiNodejs />
       </span>
     ),
     image: "./project/ecommerce.png",
@@ -71,10 +70,9 @@ export const projects = [
     title: "Laravel",
     subtitle: "Clone UI Movies With LiveWire",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaJsSquare />
         <FaLaravel />
-        <Icon icon="simple-icons:livewire" />
         <TbBrandTailwind />
       </span>
     ),
@@ -85,7 +83,7 @@ export const projects = [
     title: "Laravel",
     subtitle: "Project Gestion Restaurant",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaLaravel />
         <DiMysql />
       </span>
@@ -97,7 +95,7 @@ export const projects = [
     title: "WordPress",
     subtitle: "Site Web App service BCI",
     icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
+      <span className="flex justify-center mt-[70px]">
         <FaWordpress />
       </span>
     ),

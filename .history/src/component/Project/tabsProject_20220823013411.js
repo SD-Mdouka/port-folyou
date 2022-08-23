@@ -19,7 +19,7 @@ export default function TabGroup() {
         ))}
       </ButtonGroup>
       <p />
-      <div className="p-5 m-1 border border-[#44566c] bg-[#44566c]">
+      <div className="p-5 border border-[#44566c] bg-[#44566c]">
         {" "}
         {active && <ListProject tab={active} />}{" "}
       </div>
