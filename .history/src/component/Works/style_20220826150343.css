@@ -1,0 +1,17 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.my-masonry-grid {
+    display: flex;
+    margin-left: -30px;
+    min-height: 50vh;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    background-clip: padding-box;
+    padding-left: 30px;
+}
