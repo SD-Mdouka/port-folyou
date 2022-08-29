@@ -4,7 +4,7 @@ import { projects } from "./data";
 
 export default function Projects({ tab }) {
   return (
-    <section className="text-center mt-3 relative grid grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 ml-6">
+    <section className="text-center relative grid grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 ml-6">
       {projects.map(
         (project) =>
           tab === project.title && (

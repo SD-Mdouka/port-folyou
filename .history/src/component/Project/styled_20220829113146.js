@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Tab = styled.button`
   font-size: 20px;
-  padding: 10px 50px;
+  padding: 15px 50px;
   cursor: pointer;
   opacity: 0.6;
   display: flex;

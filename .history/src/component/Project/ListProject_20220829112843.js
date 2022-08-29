@@ -4,7 +4,7 @@ import { projects } from "./data";
 
 export default function Projects({ tab }) {
   return (
-    <section className="text-center mt-3 relative grid grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 ml-6">
+    <section className="text-center relative grid grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-1 ml-6">
       {projects.map(
         (project) =>
           tab === project.title && (
@@ -16,12 +16,8 @@ export default function Projects({ tab }) {
               duration-1000 ease-in-out  
               bg-transparent"
             >
-              <div className="flex relative m-8">
-                <img
-                  alt="gallery"
-                  className="absolute p-1"
-                  src={project.image}
-                />
+              <div className="flex relative m-7">
+                <img alt="gallery" className="absolute" src={project.image} />
                 <div
                   className="p-[35px] relative z-10 w-full border
                  border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"

@@ -25,7 +25,8 @@ const Navbar = () => {
             <li className="nav-item">
               <span className="flex flex-row bg-transparent  rounded-xl">
                 <span className="text-black mt-3 ml-2 text-[20px] text-bold lg:flex">
-                  {click ? "" : <IconHome />}
+                   {click ? "" : <IconHome />}
+                  
                 </span>
                 <NavLink exact to="/" className="nav-links mt-0.5">
                   Home
@@ -35,7 +36,7 @@ const Navbar = () => {
             <li className="nav-item">
               <span className="flex flex-row bg-transparent rounded-xl ">
                 <span className="text-black mt-3 ml-2 text-[20px] text-bold lg:flex">
-                  {click ? "" : <IconAbout />}
+                  <IconAbout />
                 </span>
                 <NavLink
                   exact
@@ -49,8 +50,8 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <span className="flex flex-row bg-transparent rounded-xl">
-                <span className="text-black hidden-icon mt-3 ml-2 text-[20px] text-bold lg:flex">
-                  {click ? "" : <IconWorks />}
+                <span className="text-black mt-3 ml-2 text-[20px] text-bold lg:flex">
+                  <IconWorks />
                 </span>
                 <NavLink
                   exact
@@ -65,7 +66,7 @@ const Navbar = () => {
             <li className="nav-item">
               <span className="flex flex-row bg-transparent rounded-xl">
                 <span className="text-black mt-3 ml-2 hidden-icon text-[20px] text-bold lg:flex">
-                  {click ? "" : <IconContact />}
+                  <IconContact />
                 </span>
                 <NavLink
                   exact

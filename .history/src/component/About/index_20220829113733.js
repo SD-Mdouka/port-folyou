@@ -59,7 +59,7 @@ const About = () => {
                     </div>
                     <div className="">
                       <h3 className="text-3xl font-bold my-5">Personal Info</h3>
-                      <div className="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 grid-cols-2 gap-6">
+                      <div className="grid grid-cols-2 gap-6">
                         <div className="flex">
                           <span className="box-border md:box-content shadow-lg shadow-blue-400/50 text-[#e93b81] mr-2.5 flex items-center justify-center rounded-md text-2xl p-2">
                             <IconPhone />
@@ -86,7 +86,9 @@ const About = () => {
                           </span>
                           <div className="space-y-1">
                             <p className="font-bold">Email</p>
-                            <h6 className="long-text">sd.mdouka@gmail.com</h6>
+                            <h6 className="long-text xs:p-2">
+                              sd.mdouka@gmail.com
+                            </h6>
                           </div>
                         </div>
                         <div className="flex">
