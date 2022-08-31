@@ -15,13 +15,10 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClick(!click);
-    if (!click) {
-      document.body.classList.add("hideScroll");
-    } else {
-      document.body.classList.remove("hideScroll");
-    }
+    document.body.classList.add("showScroll");
   };
   const Close = () => {
+    document.body.classList.remove("showScroll");
     setClick(false);
   };
 

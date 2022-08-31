@@ -8,9 +8,11 @@ export const Tab = styled.button`
   display: flex;
   background: transparent;
   border: 0;
+  margin: auto;
   outline: 0;
-  @media (max-width: 760px) {
-    margin: auto;
+  &: @media (max-width: 700px) {
+    display: block;
+    padding: 0px;
   }
   ${({ active }) =>
     active &&

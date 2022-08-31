@@ -1,8 +1,6 @@
 .social-container {
     background: transparent;
     padding: 25px 40px;
-    width: 50%;
-    margin: 0 auto;
 }
 
 a.social {
@@ -38,6 +36,5 @@ a.instagram {
     .social-container {
         background: transparent;
         margin-top: 2px;
-        width: 100%;
     }
 }

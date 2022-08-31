@@ -13,24 +13,15 @@ import IconInMenu from "./svgs/IconInMenu";
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
 
-  const handleClick = () => {
-    setClick(!click);
-    if (!click) {
-      document.body.classList.add("hideScroll");
-    } else {
-      document.body.classList.remove("hideScroll");
-    }
-  };
-  const Close = () => {
-    setClick(false);
-  };
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
 
   return (
     <div className="p-4">
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar w-full ml-4" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu active" : ""}>
             <li className="nav-item">
               <span className="flex flex-row bg-transparent  rounded-xl">
                 <span className="text-black mt-3 hidden-icon ml-2 text-[20px] text-bold lg:flex">

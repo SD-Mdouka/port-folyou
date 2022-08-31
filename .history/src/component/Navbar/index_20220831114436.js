@@ -13,17 +13,8 @@ import IconInMenu from "./svgs/IconInMenu";
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
 
-  const handleClick = () => {
-    setClick(!click);
-    if (!click) {
-      document.body.classList.add("hideScroll");
-    } else {
-      document.body.classList.remove("hideScroll");
-    }
-  };
-  const Close = () => {
-    setClick(false);
-  };
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
 
   return (
     <div className="p-4">

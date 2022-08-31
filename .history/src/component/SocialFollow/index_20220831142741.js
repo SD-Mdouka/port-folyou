@@ -31,9 +31,7 @@ const SocialFollow = () => {
                 <FontAwesomeIcon icon={faFacebook} size="3x" />
               </a>
               <span className="text-black text-[20px] p-3 w-full -ml-1 rounded-r-full font-bold bg-white">
-                <a href="https://web.facebook.com/salaheddine.mdouka">
-                  Salah Eddine Mdouka
-                </a>
+                Salah Eddine Mdouka
               </span>
             </div>
           </motion.div>
@@ -54,7 +52,7 @@ const SocialFollow = () => {
                 <FontAwesomeIcon icon={faInstagram} size="3x" />
               </a>
               <span className="text-black text-[20px] p-3 w-full -ml-1 rounded-r-full font-bold bg-white">
-                <a href="https://www.instagram.com/sdmdouka/">sdmdouka</a>
+                sdmdouka
               </span>
             </div>
           </motion.div>
@@ -75,7 +73,7 @@ const SocialFollow = () => {
                 <FontAwesomeIcon icon={faTwitter} size="3x" />
               </a>
               <span className="text-black text-[20px] p-3 w-full -ml-1 rounded-r-full font-bold bg-white">
-                <a href="https://twitter.com/SMdouka">@SMdouka</a>
+                @SMdouka
               </span>
             </div>
           </motion.div>

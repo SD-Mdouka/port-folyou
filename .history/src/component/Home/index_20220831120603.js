@@ -10,9 +10,10 @@ const Home = () => {
   return (
     <>
       <motion.div
-        initial={{ x: 0, y: -40, opacity: 0, translate: 0.4 }}
+        className="box"
+        initial={{ x: 20, y: -40, opacity: 0, translate: 0.9 }}
         animate={{ x: 0, y: 0, opacity: 1, translate: 1 }}
-        exit={{ x: 0, y: -40, opacity: 0, translate: 0.4 }}
+        exit={{ x: 0, y: -40, opacity: 0, translate: 0.9 }}
         transition={{ duration: 1.18, ease: [0.12, 0.93, 0.66, 0.97] }}
       >
         {/* Start Body content */}

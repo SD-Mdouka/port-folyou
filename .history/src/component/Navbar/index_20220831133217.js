@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClick(!click);
-    if (!click) {
+    if (click) {
       document.body.classList.add("hideScroll");
     } else {
       document.body.classList.remove("hideScroll");

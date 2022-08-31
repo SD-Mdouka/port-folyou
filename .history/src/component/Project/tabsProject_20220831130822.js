@@ -9,9 +9,9 @@ export default function TabGroup() {
   return (
     <>
       <motion.div
-        initial={{ x: 0, y: 20, opacity: 0, translate: 0.4 }}
+        initial={{ x: 0, y: 40, opacity: 0, translate: 0.4 }}
         animate={{ x: 0, y: 0, opacity: 1, translate: 1 }}
-        exit={{ x: 0, y: -20, opacity: 0, translate: 0.4 }}
+        exit={{ x: 0, y: -40, opacity: 0, translate: 0.4 }}
         transition={{
           duration: 0.18,
           ease: [0.12, 0.93, 0.66, 0.97],
@@ -30,15 +30,15 @@ export default function TabGroup() {
         </ButtonGroup>
       </motion.div>
       <motion.div
-        initial={{ x: 0, y: 20, opacity: 0, translate: 0.4 }}
+        initial={{ x: -40, y: 20, opacity: 0, translate: 0.4 }}
         animate={{ x: 0, y: 0, opacity: 1, translate: 1 }}
-        exit={{ x: 0, y: -20, opacity: 0, translate: 0.4 }}
+        exit={{ x: 10, y: -40, opacity: 0, translate: 0.4 }}
         transition={{
           duration: 2.18,
           ease: [0.12, 0.93, 0.66, 0.97],
         }}
       >
-        {active && <ListProject tab={active} />}
+        {active && <ListProject tab={active} />}{" "}
       </motion.div>
     </>
   );
