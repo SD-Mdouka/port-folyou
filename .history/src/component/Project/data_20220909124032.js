@@ -77,7 +77,7 @@ export const projects = [
         Context Api
       </span>
     ),
-    image: "./assete/project/XO_Game.jpg",
+    image: "./assete/project/ecommerce.png",
     link: "https://github.com/SD-Mdouka/XO_GAME",
   },
   {
