@@ -1,6 +1,5 @@
 import React from "react";
-import { CodeIcon, ArrowDownIcon } from "@heroicons/react/solid";
-import { Icon } from "@iconify/react";
+import { CodeIcon } from "@heroicons/react/solid";
 import { projects } from "./data";
 
 export default function Projects({ tab }) {
@@ -33,24 +32,10 @@ export default function Projects({ tab }) {
                   <h2 className="tracking-widest text-3xl title-font font-medium text-green-400 mb-1">
                     {project.icon}
                   </h2>
-                  <div className=" flex flex-col text-lg font-medium text-white m-8">
+                  <div className="border-[2px] rounded-[25px] text-lg font-medium text-white m-8">
                     {project.live !== "" && (
                       <a
-                        className="border-[2px] rounded-[25px]"
                         href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span className="pt-2 pb-2 gap-1 inline-block flex justify-center text-2xl ">
-                          <span>Live Site</span>
-                          <Icon icon="heroicons:arrow-top-right-on-square-solid" />
-                        </span>
-                      </a>
-                    )}
-                    {project.link !== "" && (
-                      <a
-                        className="border-[2px] rounded-[25px] mt-1"
-                        href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -58,6 +43,15 @@ export default function Projects({ tab }) {
                         Source Code
                       </a>
                     )}
+
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <CodeIcon className="mx-auto inline-block w-10  " />{" "}
+                      Source Code
+                    </a>
                   </div>
                 </div>
               </div>

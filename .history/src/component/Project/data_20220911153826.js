@@ -14,6 +14,21 @@ import { Icon } from "@iconify/react";
 export const projects = [
   {
     title: "React",
+    subtitle: "Auth0 + CRUD",
+    icon: (
+      <span className="flex justify-center mt-[70px] gap-5">
+        <FaJsSquare />
+        <SiAuth0 />
+        <FaReact />
+        <SiRedux />
+      </span>
+    ),
+    image: "./assete/project/Auth0+CRUD.png",
+    link: "https://github.com/SD-Mdouka/projectoauth",
+    live: "",
+  },
+  {
+    title: "React",
     subtitle: "Clon UI ONCF",
     icon: (
       <span className="flex justify-center mt-[70px] gap-5">
@@ -25,7 +40,7 @@ export const projects = [
     ),
     image: "./assete/project/ONCF_UI.png",
     link: "https://github.com/SD-Mdouka/oncefProjet",
-    live: "https://oncef-projet.vercel.app/",
+    live: "",
   },
   {
     title: "React",
@@ -40,7 +55,7 @@ export const projects = [
     ),
     image: "./assete/project/Memedoc.png",
     link: "https://github.com/SD-Mdouka/Inscription-Memedoc",
-    live: "https://inscription-memedoc.vercel.app/",
+    live: "",
   },
   {
     title: "React",
@@ -54,7 +69,7 @@ export const projects = [
     ),
     image: "./assete/project/ecommerce.png",
     link: "https://github.com/SD-Mdouka/ecommerce",
-    live: "https://ecommerce-ashen-tau.vercel.app/",
+    live: "",
   },
   {
     title: "React",
@@ -66,9 +81,9 @@ export const projects = [
         Context Api
       </span>
     ),
-    image: "./assete/project/XO_GAME.png",
+    image: "./assete/project/Capture d’écran 2022-09-11 152731.png",
     link: "https://github.com/SD-Mdouka/XO_GAME",
-    live: "https://xo-game-jet.vercel.app/",
+    live: "",
   },
   {
     title: "React",
@@ -80,24 +95,9 @@ export const projects = [
         <FaNode />
       </span>
     ),
-    image: "./assete/project/chat_teams.png",
+    image: "./assete/project/Capture d’écran 2022-09-09 175745.png",
     link: "https://github.com/SD-Mdouka/chat_teams",
     live: "",
-  },
-  {
-    title: "React",
-    subtitle: "Auth0 + CRUD",
-    icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
-        <FaJsSquare />
-        <SiAuth0 />
-        <FaReact />
-        <SiRedux />
-      </span>
-    ),
-    image: "./assete/project/Auth0+CRUD.png",
-    link: "https://github.com/SD-Mdouka/projectoauth",
-    live: "https://projectoauth.vercel.app/",
   },
   {
     title: "Laravel",
@@ -125,7 +125,7 @@ export const projects = [
     ),
     image: "./assete/project/restourant.png",
     link: "https://github.com/SD-Mdouka/Gestion-Restaurant",
-    live: "https://github.com/SD-Mdouka/Gestion-Restaurant",
+    live: "",
   },
   {
     title: "WordPress",
@@ -136,7 +136,7 @@ export const projects = [
       </span>
     ),
     image: "./assete/project/BCI-Service.png",
-    link: "",
-    live: "http://bci-inspection.com/",
+    link: "http://bci-inspection.com/",
+    live: "",
   },
 ];

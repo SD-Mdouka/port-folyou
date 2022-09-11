@@ -1,6 +1,5 @@
 import React from "react";
-import { CodeIcon, ArrowDownIcon } from "@heroicons/react/solid";
-import { Icon } from "@iconify/react";
+import { CodeIcon, AnnotationIcon } from "@heroicons/react/solid";
 import { projects } from "./data";
 
 export default function Projects({ tab }) {
@@ -41,10 +40,8 @@ export default function Projects({ tab }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <span className="pt-2 pb-2 gap-1 inline-block flex justify-center text-2xl ">
-                          <span>Live Site</span>
-                          <Icon icon="heroicons:arrow-top-right-on-square-solid" />
-                        </span>
+                        Live Site
+                        <AnnotationIcon className="mx-auto inline-block w-10  " />{" "}
                       </a>
                     )}
                     {project.link !== "" && (

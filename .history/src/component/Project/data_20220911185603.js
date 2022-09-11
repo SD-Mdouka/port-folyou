@@ -25,7 +25,7 @@ export const projects = [
     ),
     image: "./assete/project/ONCF_UI.png",
     link: "https://github.com/SD-Mdouka/oncefProjet",
-    live: "https://oncef-projet.vercel.app/",
+    live: "",
   },
   {
     title: "React",
@@ -40,7 +40,7 @@ export const projects = [
     ),
     image: "./assete/project/Memedoc.png",
     link: "https://github.com/SD-Mdouka/Inscription-Memedoc",
-    live: "https://inscription-memedoc.vercel.app/",
+    live: "",
   },
   {
     title: "React",

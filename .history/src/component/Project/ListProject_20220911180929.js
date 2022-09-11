@@ -41,8 +41,8 @@ export default function Projects({ tab }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <span className="pt-2 pb-2 gap-1 inline-block flex justify-center text-2xl ">
-                          <span>Live Site</span>
+                        Live Site
+                        <span className="mx-4 text-bold inline-block text-[20px] ">
                           <Icon icon="heroicons:arrow-top-right-on-square-solid" />
                         </span>
                       </a>

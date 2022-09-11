@@ -36,13 +36,13 @@ export default function Projects({ tab }) {
                   <div className=" flex flex-col text-lg font-medium text-white m-8">
                     {project.live !== "" && (
                       <a
-                        className="border-[2px] rounded-[25px]"
+                        className="border-[2px] flex rounded-[25px]"
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <span className="pt-2 pb-2 gap-1 inline-block flex justify-center text-2xl ">
-                          <span>Live Site</span>
+                        Live Site
+                        <span className="mx-4 inline-block text-xl ">
                           <Icon icon="heroicons:arrow-top-right-on-square-solid" />
                         </span>
                       </a>

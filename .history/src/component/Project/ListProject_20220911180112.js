@@ -41,10 +41,11 @@ export default function Projects({ tab }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <span className="pt-2 pb-2 gap-1 inline-block flex justify-center text-2xl ">
-                          <span>Live Site</span>
-                          <Icon icon="heroicons:arrow-top-right-on-square-solid" />
-                        </span>
+                        Live Site
+                        <Icon
+                          className="mx-auto inline-block w-10  "
+                          icon="heroicons:arrow-top-right-on-square-solid"
+                        />
                       </a>
                     )}
                     {project.link !== "" && (
