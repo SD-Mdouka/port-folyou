@@ -13,7 +13,7 @@ import { Icon } from "@iconify/react";
 
 export const projects = [
   {
-    title: "React + TypeScript",
+    title: "TypeScript",
     subtitle: "App Menu Resturation",
     icon: (
       <span className="flex justify-center mt-[70px] gap-5">
@@ -28,7 +28,7 @@ export const projects = [
     live: "https://gestionmarch.vercel.app/",
   },
   {
-    title: "React + TypeScript",
+    title: "TypeScript",
     subtitle: "App Movies",
     icon: (
       <span className="flex justify-center mt-[70px] gap-5">

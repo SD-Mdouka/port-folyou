@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import {
   faFacebook,
   faTwitter,
+  faInstagram,
   faGithub,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
@@ -73,7 +74,7 @@ const SocialFollow = () => {
                 href="https://github.com/SD-Mdouka"
                 className="text-[30px] font-bold text-black social relative left-2 -mt-2 rounded-full border-[10px] border-white h-[69px]"
               >
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <FontAwesomeIcon icon={faGithub} size="3x" />
               </a>
               <span className="text-black text-[20px] p-3 w-full -ml-1 rounded-r-full font-bold bg-white">
                 <a href="https://github.com/SD-Mdouka">SD-Mdouka</a>
@@ -94,7 +95,7 @@ const SocialFollow = () => {
                 href="https://www.linkedin.com/in/salah-eddine-mdouka-578695133/"
                 className="text-[30px] text-[#0072b1] social relative left-2 -mt-2 rounded-full border-[10px] border-white h-[69px]"
               >
-                <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
               </a>
               <span className="text-black text-[20px] p-3 w-full -ml-1 rounded-r-full font-bold bg-white">
                 <a href="https://www.linkedin.com/in/salah-eddine-mdouka-578695133/">

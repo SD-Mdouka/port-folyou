@@ -8,10 +8,6 @@
     margin-top: 4px;
 }
 
-.bg-gradien-botail:hover {
-    background: linear-gradient(#541d86, #6ab5b9);
-}
-
-.bg-gradien-typreact:hover {
-    background: linear-gradient(#4968ad, #49a1eb);
+div:hover .bg-gradien-botail {
+    background: linear-gradient(#5a819c, #541d86);
 }

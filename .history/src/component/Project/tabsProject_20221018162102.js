@@ -3,7 +3,7 @@ import { Tab, ButtonGroup } from "./styled";
 import ListProject from "./ListProject";
 import { motion } from "framer-motion";
 
-const types = ["React", "React + TypeScript", "Laravel", "WordPress"];
+const types = ["React", "TypeScript", "Laravel", "WordPress"];
 export default function TabGroup() {
   const [active, setActive] = useState(types[0]);
   return (

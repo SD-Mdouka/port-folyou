@@ -57,7 +57,7 @@ const Home = () => {
                   <div className="grid gap-8 grid-cols-3 xs:grid-cols-1 md:grid-cols-1">
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] bg-gradien-typreact hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-[#4968ad] hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                       data-aos="fade"
                     >

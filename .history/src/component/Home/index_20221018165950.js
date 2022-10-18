@@ -3,15 +3,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import Footer from "../Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWordpressSimple,
   faLaravel,
 } from "@fortawesome/free-brands-svg-icons";
 // import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./style.css";
-import { SiTypescript } from "react-icons/si";
-import { FaBootstrap, FaFigma, FaReact } from "react-icons/fa";
-import { TbBrandTailwind } from "react-icons/tb";
 
 const Home = () => {
   return (
@@ -43,6 +41,24 @@ const Home = () => {
             </p>
 
             <div className="flex space-x-8 justify-center">
+              {/* <a
+                href="https://github.com/SD-Mdouka"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-[30px] font-bold text-black ">
+                  <FontAwesomeIcon icon={faGithub} />
+                </span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/salah-eddine-mdouka-578695133/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-[30px] text-[#0072b1]">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </span>
+              </a> */}
               <motion.div
                 initial={{ x: 10, y: -20, opacity: 0, scale: 0.4 }}
                 animate={{ x: -10, y: -10, opacity: 1, scale: 1 }}
@@ -57,15 +73,15 @@ const Home = () => {
                   <div className="grid gap-8 grid-cols-3 xs:grid-cols-1 md:grid-cols-1">
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] bg-gradien-typreact hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                       data-aos="fade"
                     >
-                      <p className=" object-contain block hover:text-white">
-                        <SiTypescript className="w-10 h-10 inline-block" />{" "}
-                        <span className="text-white text-[14px]">+</span>
-                        <FaReact className="w-10 h-10 inline-block" />
-                      </p>
+                      <img
+                        className="w-12 h-12 object-contain  block"
+                        src="/assete/names-list-with-react-and-typescript-blog-post.png"
+                        alt=""
+                      />
                       <div className="space-y-2 mt-1">
                         <h3 className=" text-2xl font-semibold">
                           App React + TypeScript
@@ -77,13 +93,15 @@ const Home = () => {
                     </div>
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-[#49a1eb] hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                       data-aos="fade"
                     >
-                      <p className=" object-contain block hover:text-white">
-                        <FaReact className="w-10 h-10 inline-block" />
-                      </p>
+                      <img
+                        className="w-12 h-12 object-contain  block"
+                        src="/assete/logo512.png"
+                        alt=""
+                      />
                       <div className="space-y-2 mt-1">
                         <h3 className=" text-2xl font-semibold">
                           App React Web
@@ -93,52 +111,14 @@ const Home = () => {
                         </p>
                       </div>
                     </div>
-
-                    <div
-                      className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] bg-gradien-botail hover:shadow-lg
-                    hover:shadow-blue-500/50 bg-transparent"
-                      data-aos="fade"
-                    >
-                      <p className=" object-contain block hover:text-white ">
-                        <FaBootstrap className="w-10 h-10 inline-block" />{" "}
-                        <span className="text-white text-[14px]">+</span>
-                        <TbBrandTailwind className="w-10 h-10 inline-block" />
-                      </p>
-
-                      <div className="space-y-2 mt-1">
-                        <h3 className=" text-2xl font-semibold">
-                          Design TailwindCss + Bootstrap
-                        </h3>
-                        <p className=" leading-8 text-gray-lite text-[#44566c] long-text">
-                          Styling application your interfaces.
-                        </p>
-                      </div>
-                    </div>
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
                    hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
-                      data-aos="fade"
-                    >
-                      <p className=" object-contain block hover:text-white">
-                        <FaFigma className="w-10 h-10 inline-block" />
-                      </p>
-                      <div className="space-y-2 mt-1">
-                        <h3 className=" text-2xl font-semibold">UI Figma</h3>
-                        <p className=" leading-8 text-gray-lite text-[#44566c] long-text">
-                          Convert UI Figma In React.
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-orange-700 hover:shadow-lg
-                    hover:shadow-blue-500/50 bg-transparent"
                     >
                       <span className="w-10 h-10 object-contain block">
                         <FontAwesomeIcon
-                          className="w-10 h-10 text-[#333] inline-block"
+                          className="w-10 h-10 object-contain block text-[#ef1010] hover:text-white"
                           icon={faLaravel}
                         />
                       </span>
@@ -152,7 +132,7 @@ const Home = () => {
                     </div>
                     <div
                       className="transition-all duration-400 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:!text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                     >
                       <span className="w-10 h-10 object-contain block">

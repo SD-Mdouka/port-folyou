@@ -57,7 +57,7 @@ const Home = () => {
                   <div className="grid gap-8 grid-cols-3 xs:grid-cols-1 md:grid-cols-1">
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] bg-gradien-typreact hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-[#4968ad] hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                       data-aos="fade"
                     >
@@ -96,11 +96,11 @@ const Home = () => {
 
                     <div
                       className="transition-all duration-300 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] bg-gradien-botail hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                       data-aos="fade"
                     >
-                      <p className=" object-contain block hover:text-white ">
+                      <p className=" object-contain block hover:text-white">
                         <FaBootstrap className="w-10 h-10 inline-block" />{" "}
                         <span className="text-white text-[14px]">+</span>
                         <TbBrandTailwind className="w-10 h-10 inline-block" />
@@ -152,7 +152,7 @@ const Home = () => {
                     </div>
                     <div
                       className="transition-all duration-400 xs:md:col-span-1
-                   hover:box-border hover:md:box-content hover:!text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
+                   hover:box-border hover:md:box-content hover:text-white p-5 rounded-[10px] hover:bg-black hover:shadow-lg
                     hover:shadow-blue-500/50 bg-transparent"
                     >
                       <span className="w-10 h-10 object-contain block">
@@ -166,7 +166,7 @@ const Home = () => {
                         <h3 className=" text-2xl font-semibold">
                           App Development
                         </h3>
-                        <p className=" leading-8 text-gray-lite text-[#44566c] long-text">
+                        <p className=" leading-8 hover:text-gray-lite text-[#44566c] long-text">
                           Creating and developing user site single pages.
                         </p>
                       </div>

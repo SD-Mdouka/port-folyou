@@ -8,41 +8,10 @@ import {
 } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { TbBrandTailwind } from "react-icons/tb";
-import { SiRedux, SiAuth0, SiMaterialui, SiTypescript } from "react-icons/si";
+import { SiRedux, SiAuth0 } from "react-icons/si";
 import { Icon } from "@iconify/react";
 
 export const projects = [
-  {
-    title: "React + TypeScript",
-    subtitle: "App Menu Resturation",
-    icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
-        <FaJsSquare />
-        <FaReact />
-        <FaBootstrap />
-        <SiTypescript />
-      </span>
-    ),
-    image: "./assete/project/AppMenuRestouration.png",
-    link: "https://github.com/SD-Mdouka/gestionmarch",
-    live: "https://gestionmarch.vercel.app/",
-  },
-  {
-    title: "React + TypeScript",
-    subtitle: "App Movies",
-    icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
-        <FaJsSquare />
-        <FaReact />
-        <FaBootstrap />
-        <SiTypescript />
-        <SiRedux />
-      </span>
-    ),
-    image: "./assete/project/AppMenuFilme.png",
-    link: "https://github.com/SD-Mdouka/gestionmarch",
-    live: "https://gestionmarch.vercel.app/",
-  },
   {
     title: "React",
     subtitle: "App Shopping",
@@ -53,7 +22,7 @@ export const projects = [
         Style Component
       </span>
     ),
-    image: "./assete/project/AppShopping.png",
+    image: "./assete/project/BoitMessage.png",
     link: "https://github.com/SD-Mdouka/gestionmarch",
     live: "https://gestionmarch.vercel.app/",
   },
@@ -171,20 +140,6 @@ export const projects = [
     image: "./assete/project/Auth0+CRUD.png",
     link: "https://github.com/SD-Mdouka/projectoauth",
     live: "https://projectoauth.vercel.app/",
-  },
-  {
-    title: "React",
-    subtitle: "To Do List + MatrielUI",
-    icon: (
-      <span className="flex justify-center mt-[70px] gap-5">
-        <FaJsSquare />
-        <FaReact />
-        <SiMaterialui />
-      </span>
-    ),
-    image: "./assete/project/ToDoGrid+Steps+MatreilUi.png",
-    link: "https://github.com/SD-Mdouka/gestionmarch",
-    live: "https://gestionmarch.vercel.app/",
   },
   {
     title: "Laravel",
