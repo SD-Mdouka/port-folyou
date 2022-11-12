@@ -6,7 +6,6 @@ import IconBrithday from "./svgs/IconBrithday";
 import IconEmail from "./svgs/IconEmail";
 import IconLocation from "./svgs/IconLocation";
 import IconPhone from "./svgs/IconPhone";
-import SlideCertification from "./Certification";
 
 const About = () => {
   return (
@@ -109,11 +108,11 @@ const About = () => {
                       ease: [0.12, 0.93, 0.66, 0.97],
                     }}
                   >
-                    <div className="pt-5 pl-3">
-                      <h3 className="text-3xl font-bold">Certification !</h3>
-                      <div className="grid grid-cols-1 w-[50%] mx-auto">
-                        <SlideCertification />
-                      </div>
+                    <div className="pt-10 pl-3">
+                      <h3 className="text-3xl font-bold pb-5">
+                        Certification !
+                      </h3>
+                      <div className="grid gap-8 grid-cols-3 xs:grid-cols-1 md:grid-cols-1"></div>
                     </div>
                   </motion.div>
                 </div>

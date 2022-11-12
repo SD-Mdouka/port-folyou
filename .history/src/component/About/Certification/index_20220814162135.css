@@ -1,0 +1,110 @@
+/* style slide text */
+
+#slidertest .containerList {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#slidertest .titleContainer {
+    color: rgb(36, 0, 113);
+    font-family: "Encode Sans Expanded";
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.17px;
+    line-height: 37px;
+}
+
+#slidertest .paragraph {
+    color: rgb(36, 0, 113);
+    font-family: "Encode Sans Expanded";
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    padding: 2px;
+    margin-left: 2px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+#slidertest .btnDecouvrir {
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: "Encode Sans Expanded";
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15.5px 35.5px;
+    margin: 25px 0px 0px;
+    display: flex;
+    width: fit-content;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out 0s;
+    background-color: rgb(39, 214, 165);
+    border: 1.6px solid rgb(39, 214, 165);
+    color: rgb(255, 255, 255) !important;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+
+#slidertest .contentGlobal {
+    width: 1115px;
+    margin: 0px auto;
+}
+
+#slidertest .containerLocal {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+/* Slideshow */
+
+#slidertest .slideshow {
+    margin: 10px auto;
+    padding-left: 10px;
+    overflow: hidden;
+    width: 500px;
+    flex-direction: column;
+}
+
+#slidertest .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+#slidertest .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+/* Buttons */
+
+#slidertest .slideshowDots {
+    text-align: center;
+}
+
+#slidertest .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
+
+#slidertest .slideshowDot.active {
+    background-color: #6a0dad;
+}

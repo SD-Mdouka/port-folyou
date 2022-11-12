@@ -1,0 +1,70 @@
+/* style slide text */
+
+#slidertest .containerList {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#slidertest .titleContainer {
+    color: rgb(36, 0, 113);
+    font-family: "Encode Sans Expanded";
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.17px;
+    line-height: 37px;
+}
+
+#slidertest .contentGlobal {
+    width: 100%;
+}
+
+#slidertest .containerLocal {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+/* Slideshow */
+
+#slidertest .slideshow {
+    padding-left: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+#slidertest .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+#slidertest .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+/* Buttons */
+
+#slidertest .slideshowDots {
+    text-align: center;
+}
+
+#slidertest .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
+
+#slidertest .slideshowDot.active {
+    background-color: #6a0dad;
+}
